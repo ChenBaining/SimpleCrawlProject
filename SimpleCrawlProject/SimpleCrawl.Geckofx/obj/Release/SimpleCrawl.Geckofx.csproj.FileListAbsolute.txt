@@ -1,0 +1,16 @@
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\SimpleCrawl.Geckofx.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\SimpleCrawl.Geckofx.pdb
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\Geckofx-Core.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\Geckofx-Winforms.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\SimpleCrawl.Data.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\Miluo.ExtensionTool.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\System.Data.SQLite.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\FSLib.Network.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\Newtonsoft.Json.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\SimpleCrawl.Data.pdb
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\Miluo.ExtensionTool.pdb
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\FSLib.Network.xml
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\bin\Release\Newtonsoft.Json.xml
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\obj\Release\SimpleCrawl.Geckofx.csprojResolveAssemblyReference.cache
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\obj\Release\SimpleCrawl.Geckofx.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Geckofx\obj\Release\SimpleCrawl.Geckofx.pdb

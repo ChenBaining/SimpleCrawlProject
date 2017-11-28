@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrawlApp", "SimpleCrawlApp\SimpleCrawlApp.csproj", "{90ABF2D6-C87F-4B9F-BA69-C3B74290C4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miluo.ExtensionTool", "..\MiluoExtensionTool\Miluo.ExtensionTool\Miluo.ExtensionTool.csproj", "{2CB5B3DD-36ED-46CB-A455-6D3382C42151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrawl.Data", "SimpleCrawl.Data\SimpleCrawl.Data.csproj", "{3FEED2F3-268E-4FEB-ABB3-230FA1CCCA19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrawl.Geckofx", "SimpleCrawl.Geckofx\SimpleCrawl.Geckofx.csproj", "{7C97D630-12E4-4B82-9D1A-F66851DC2DAE}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90ABF2D6-C87F-4B9F-BA69-C3B74290C4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90ABF2D6-C87F-4B9F-BA69-C3B74290C4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90ABF2D6-C87F-4B9F-BA69-C3B74290C4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90ABF2D6-C87F-4B9F-BA69-C3B74290C4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB5B3DD-36ED-46CB-A455-6D3382C42151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB5B3DD-36ED-46CB-A455-6D3382C42151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB5B3DD-36ED-46CB-A455-6D3382C42151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB5B3DD-36ED-46CB-A455-6D3382C42151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FEED2F3-268E-4FEB-ABB3-230FA1CCCA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEED2F3-268E-4FEB-ABB3-230FA1CCCA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEED2F3-268E-4FEB-ABB3-230FA1CCCA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEED2F3-268E-4FEB-ABB3-230FA1CCCA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C97D630-12E4-4B82-9D1A-F66851DC2DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C97D630-12E4-4B82-9D1A-F66851DC2DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C97D630-12E4-4B82-9D1A-F66851DC2DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C97D630-12E4-4B82-9D1A-F66851DC2DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

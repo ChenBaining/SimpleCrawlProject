@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90ABF2D6-C87F-4B9F-BA69-C3B74290C4E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SimpleCrawlApp</RootNamespace>
+    <AssemblyName>SimpleCrawlApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon_32px_552783_easyicon.net.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin">
+      <HintPath>..\SimpleCrawl.Geckofx\bin\Debug\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlsTool\ChatListBoxEvent.cs" />
+    <Compile Include="EventHandle\MDIFrmEvent.cs" />
+    <Compile Include="EventHandle\MenuFrmEvent.cs" />
+    <Compile Include="ImagesResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImagesResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MDIFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIFrm.Designer.cs">
+      <DependentUpon>MDIFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleCrawlFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleCrawlFrm.Designer.cs">
+      <DependentUpon>SimpleCrawlFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModel1\GeckofxDetailedFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModel1\GeckofxDetailedFrm.Designer.cs">
+      <DependentUpon>GeckofxDetailedFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModel1\GeckofxFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModel1\GeckofxFrm.Designer.cs">
+      <DependentUpon>GeckofxFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModel1\ResultFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModel1\ResultFrm.Designer.cs">
+      <DependentUpon>ResultFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModel1\SettingsPageFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModel1\SettingsPageFrm.Designer.cs">
+      <DependentUpon>SettingsPageFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModel1\ThemeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModel1\ThemeFrm.Designer.cs">
+      <DependentUpon>ThemeFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModel1\ThemeFrmTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModel1\ThemeFrmTwo.Designer.cs">
+      <DependentUpon>ThemeFrmTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModelTool\ExportTasksFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModelTool\ExportTasksFrm.Designer.cs">
+      <DependentUpon>ExportTasksFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModelTool\ImportTasksFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModelTool\ImportTasksFrm.Designer.cs">
+      <DependentUpon>ImportTasksFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModelTool\MenuFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModelTool\MenuFrm.Designer.cs">
+      <DependentUpon>MenuFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModelTool\MyTaskFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModelTool\MyTaskFrm.Designer.cs">
+      <DependentUpon>MyTaskFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleModelTool\TaskStatusFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleModelTool\TaskStatusFrm.Designer.cs">
+      <DependentUpon>TaskStatusFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Webbrower\GeckofxWebbrowerFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Webbrower\GeckofxWebbrowerFrm.Designer.cs">
+      <DependentUpon>GeckofxWebbrowerFrm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ImagesResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ImagesResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIFrm.resx">
+      <DependentUpon>MDIFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SimpleCrawlFrm.resx">
+      <DependentUpon>SimpleCrawlFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModel1\GeckofxDetailedFrm.resx">
+      <DependentUpon>GeckofxDetailedFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModel1\GeckofxFrm.resx">
+      <DependentUpon>GeckofxFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModel1\ResultFrm.resx">
+      <DependentUpon>ResultFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModel1\SettingsPageFrm.resx">
+      <DependentUpon>SettingsPageFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModel1\ThemeFrm.resx">
+      <DependentUpon>ThemeFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModel1\ThemeFrmTwo.resx">
+      <DependentUpon>ThemeFrmTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModelTool\ExportTasksFrm.resx">
+      <DependentUpon>ExportTasksFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModelTool\ImportTasksFrm.resx">
+      <DependentUpon>ImportTasksFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModelTool\MenuFrm.resx">
+      <DependentUpon>MenuFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModelTool\MyTaskFrm.resx">
+      <DependentUpon>MyTaskFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleModelTool\TaskStatusFrm.resx">
+      <DependentUpon>TaskStatusFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Webbrower\GeckofxWebbrowerFrm.resx">
+      <DependentUpon>GeckofxWebbrowerFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleCrawl.Data\SimpleCrawl.Data.csproj">
+      <Project>{3feed2f3-268e-4feb-abb3-230fa1ccca19}</Project>
+      <Name>SimpleCrawl.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleCrawl.Geckofx\SimpleCrawl.Geckofx.csproj">
+      <Project>{7C97D630-12E4-4B82-9D1A-F66851DC2DAE}</Project>
+      <Name>SimpleCrawl.Geckofx</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon_32px_552783_easyicon.net.ico" />
+    <Content Include="Resources\icon_32px_552783_easyicon.net.ico" />
+    <None Include="Resources\1108797.png" />
+    <None Include="Resources\1108796.png" />
+    <None Include="Resources\1108795.png" />
+    <None Include="Resources\1108794.png" />
+    <None Include="Resources\1108793.png" />
+    <None Include="Resources\1108792.png" />
+    <None Include="Resources\1108791.png" />
+    <None Include="Resources\1108790.png" />
+    <None Include="Resources\1108789.png" />
+    <None Include="Resources\1108788.png" />
+    <None Include="Resources\1108787.png" />
+    <None Include="Resources\1108786.png" />
+    <None Include="Resources\1108785.png" />
+    <None Include="Resources\1108784.png" />
+    <None Include="Resources\1108783.png" />
+    <None Include="Resources\1108782.png" />
+    <None Include="Resources\1108781.png" />
+    <None Include="Resources\1108780.png" />
+    <None Include="Resources\1108779.png" />
+    <None Include="Resources\1108778.png" />
+    <None Include="Resources\1108777.png" />
+    <None Include="Resources\1108776.png" />
+    <None Include="Resources\1108775.png" />
+    <None Include="Resources\1108774.png" />
+    <None Include="Resources\1108773.png" />
+    <None Include="Resources\1108772.png" />
+    <None Include="Resources\1108771.png" />
+    <None Include="Resources\1108770.png" />
+    <None Include="Resources\1108769.png" />
+    <None Include="Resources\1108768.png" />
+    <None Include="Resources\1108767.png" />
+    <None Include="Resources\1108766.png" />
+    <None Include="Resources\1108765.png" />
+    <None Include="Resources\1108764.png" />
+    <None Include="Resources\1108763.png" />
+    <None Include="Resources\1108762.png" />
+    <None Include="Resources\1108761.png" />
+    <None Include="Resources\1108760.png" />
+    <None Include="Resources\1108759.png" />
+    <None Include="Resources\1108758.png" />
+    <None Include="Resources\1108757.png" />
+    <None Include="Resources\1108756.png" />
+    <None Include="Resources\1108755.png" />
+    <None Include="Resources\1108754.png" />
+    <None Include="Resources\1108753.png" />
+    <None Include="Resources\1108752.png" />
+    <None Include="Resources\1108751.png" />
+    <None Include="Resources\1108750.png" />
+    <None Include="Resources\1108749.png" />
+    <None Include="Resources\1108748.png" />
+    <None Include="Resources\1108697.png" />
+    <None Include="Resources\1108696.png" />
+    <None Include="Resources\1108695.png" />
+    <None Include="Resources\1108694.png" />
+    <None Include="Resources\1108693.png" />
+    <None Include="Resources\1108692.png" />
+    <None Include="Resources\1108691.png" />
+    <None Include="Resources\1108690.png" />
+    <None Include="Resources\1108689.png" />
+    <None Include="Resources\1108688.png" />
+    <None Include="Resources\1108687.png" />
+    <None Include="Resources\1108686.png" />
+    <None Include="Resources\1108685.png" />
+    <None Include="Resources\1108684.png" />
+    <None Include="Resources\1108683.png" />
+    <None Include="Resources\1108682.png" />
+    <None Include="Resources\1108681.png" />
+    <None Include="Resources\1108680.png" />
+    <None Include="Resources\1108679.png" />
+    <None Include="Resources\1108678.png" />
+    <None Include="Resources\1108677.png" />
+    <None Include="Resources\1108676.png" />
+    <None Include="Resources\1108675.png" />
+    <None Include="Resources\1108674.png" />
+    <None Include="Resources\1108673.png" />
+    <None Include="Resources\1108672.png" />
+    <None Include="Resources\1108671.png" />
+    <None Include="Resources\1108670.png" />
+    <None Include="Resources\1108669.png" />
+    <None Include="Resources\1108668.png" />
+    <None Include="Resources\1108667.png" />
+    <None Include="Resources\1108666.png" />
+    <None Include="Resources\1108665.png" />
+    <None Include="Resources\1108664.png" />
+    <None Include="Resources\1108663.png" />
+    <None Include="Resources\1108662.png" />
+    <None Include="Resources\1108661.png" />
+    <None Include="Resources\1108660.png" />
+    <None Include="Resources\1108659.png" />
+    <None Include="Resources\1108658.png" />
+    <None Include="Resources\1108657.png" />
+    <None Include="Resources\1108656.png" />
+    <None Include="Resources\1108655.png" />
+    <None Include="Resources\1108654.png" />
+    <None Include="Resources\1108653.png" />
+    <None Include="Resources\1108652.png" />
+    <None Include="Resources\1108651.png" />
+    <None Include="Resources\1108650.png" />
+    <None Include="Resources\1108649.png" />
+    <None Include="Resources\1108648.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

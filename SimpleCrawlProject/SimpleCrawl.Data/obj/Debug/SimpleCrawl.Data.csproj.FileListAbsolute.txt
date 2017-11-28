@@ -1,0 +1,12 @@
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\bin\Debug\SimpleCrawl.Data.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\bin\Debug\SimpleCrawl.Data.pdb
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\bin\Debug\Miluo.ExtensionTool.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\bin\Debug\System.Data.SQLite.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\bin\Debug\FSLib.Network.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\bin\Debug\Newtonsoft.Json.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\bin\Debug\Miluo.ExtensionTool.pdb
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\bin\Debug\FSLib.Network.xml
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\bin\Debug\Newtonsoft.Json.xml
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\obj\Debug\SimpleCrawl.Data.csprojResolveAssemblyReference.cache
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\obj\Debug\SimpleCrawl.Data.dll
+E:\Project\C#\SimpleCrawlProject\SimpleCrawl.Data\obj\Debug\SimpleCrawl.Data.pdb
